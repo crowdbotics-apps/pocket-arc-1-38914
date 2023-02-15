@@ -1,3 +1,4 @@
+import { TextInput } from "react-native";
 import React from "react";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
@@ -9,12 +10,19 @@ const Untitled1 = () => {
       position: 'relative',
       flex: 1
     }}></ScrollView>
-    </SafeAreaView>;
+    <TextInput style={styles.CDAntmLd}></TextInput></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
   safeArea: {
     height: '100%'
+  },
+  CDAntmLd: {
+    position: "absolute",
+    backgroundColor: "#ffffff",
+    borderColor: "#cccccc",
+    width: 150,
+    height: 30
   }
 });
 export default Untitled1;
